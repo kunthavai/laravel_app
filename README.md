@@ -18,7 +18,7 @@ It supports:
 
 * **Backend:** Laravel 12
 * **Database:** MongoDB
-* **Authentication:** JWT (API आधारित)
+* **Authentication:** JWT (API )
 * **Architecture:** Repository Pattern
 * **Query Handling:** MongoDB Aggregation Pipelines
 
@@ -91,7 +91,7 @@ POST /api/user-modules/createOrUpdate
 ###  Get Sequential Modules
 
 ```
-GET /api/user-modules/{course_id}
+GET /api/user-modules/listSequentialModules/{course_id}
 ```
 
 ---
@@ -107,7 +107,7 @@ GET /api/user-modules/getCourseProgress/{course_id}
 ###  Get Latest Activity
 
 ```
-GET /api/user-modules/getLatestActivity/{course_id}
+GET /api/user-modules/getLatestAccessedModule/{course_id}
 ```
 
 ---
@@ -115,7 +115,7 @@ GET /api/user-modules/getLatestActivity/{course_id}
 ###  Get Leaderboard
 
 ```
-GET /api/user-modules/top-users/{course_id}
+GET /api/user-modules/getTopUsersByCourse/{course_id}
 ```
 
 ---

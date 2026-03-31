@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class UserModule extends Model
 {
+    use SoftDeletes;
     protected $connection = 'mongodb';
     protected $collection = 'user_modules';
 
@@ -17,7 +18,6 @@ class UserModule extends Model
         'module_order',
         'status',
         'score',
-        'updated_at'
     ];
 
     public $timestamps = true;

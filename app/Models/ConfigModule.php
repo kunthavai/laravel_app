@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class ConfigModule extends Model
 {
+    use SoftDeletes;
     protected $connection = 'mongodb';
     protected $collection = 'config_modules';
 
-    protected $fillable = [
-        '_id',
+    protected $fillable = [        
         'course_id',
         'title',
         'module_order',

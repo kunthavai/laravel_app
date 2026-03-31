@@ -7,11 +7,11 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Course extends Model
 {
+    use SoftDeletes;
     protected $connection = 'mongodb';
     protected $collection = 'courses';
 
-    protected $fillable = [
-        '_id',
+    protected $fillable = [       
         'title',
         'description',
         'slug',

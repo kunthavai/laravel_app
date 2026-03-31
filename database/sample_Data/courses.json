@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b2"
+  },
+  "title": "Laravel Basics",
+  "description": "Learn Laravel",
+  "slug": "laravel-basics",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.859Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.859Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b6"
+  },
+  "title": "MongoDB Mastery",
+  "description": "Learn MongoDB",
+  "slug": "mongodb-mastery",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.914Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.914Z"
+  }
+}]

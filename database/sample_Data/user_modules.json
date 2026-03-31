@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "69ca7f9d632ac74a73058782"
+  },
+  "user_id": {
+    "$oid": "69ca56e5ee154e66b10266a2"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b2"
+  },
+  "module_id": {
+    "$oid": "69ca75eaff22753a220867b3"
+  },
+  "status": "completed",
+  "score": 70,
+  "module_order": 1,
+  "updated_at": {
+    "$date": "2026-03-30T13:50:21.949Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:50:21.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69cb5d536d6a02c556000272"
+  },
+  "user_id": {
+    "$oid": "69ca56e5ee154e66b10266a2"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b2"
+  },
+  "module_id": {
+    "$oid": "69ca75eaff22753a220867b4"
+  },
+  "status": "in_progress",
+  "score": 10,
+  "module_order": 2,
+  "updated_at": {
+    "$date": "2026-03-31T05:36:19.895Z"
+  },
+  "created_at": {
+    "$date": "2026-03-31T05:36:19.895Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69cb89a86d6a02c556000273"
+  },
+  "status": "in_progress",
+  "score": 10,
+  "user_id": {
+    "$oid": "69ca56e5ee154e66b10266a2"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b6"
+  },
+  "module_id": {
+    "$oid": "69ca75eaff22753a220867b7"
+  },
+  "module_order": 1,
+  "updated_at": {
+    "$date": "2026-03-31T08:45:28.611Z"
+  },
+  "created_at": {
+    "$date": "2026-03-31T08:45:28.611Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69cb8ffc6d6a02c556000274"
+  },
+  "status": "completed",
+  "score": 50,
+  "user_id": {
+    "$oid": "69ca56e5ee154e66b10266a3"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b6"
+  },
+  "module_id": {
+    "$oid": "69ca75eaff22753a220867b7"
+  },
+  "module_order": 1,
+  "updated_at": {
+    "$date": "2026-03-31T09:12:28.734Z"
+  },
+  "created_at": {
+    "$date": "2026-03-31T09:12:28.734Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69cb901b6d6a02c556000275"
+  },
+  "status": "completed",
+  "score": 80,
+  "user_id": {
+    "$oid": "69ca56e5ee154e66b10266a3"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b2"
+  },
+  "module_id": {
+    "$oid": "69ca75eaff22753a220867b3"
+  },
+  "module_order": 1,
+  "updated_at": {
+    "$date": "2026-03-31T09:12:59.870Z"
+  },
+  "created_at": {
+    "$date": "2026-03-31T09:12:59.870Z"
+  }
+}]

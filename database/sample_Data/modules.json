@@ -1,0 +1,102 @@
+[{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b3"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b2"
+  },
+  "title": "Introduction",
+  "module_order": 1,
+  "slug": "introduction",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.887Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.887Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b4"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b2"
+  },
+  "title": "Routing",
+  "module_order": 2,
+  "slug": "routing",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.912Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.912Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b5"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b2"
+  },
+  "title": "Middleware",
+  "module_order": 3,
+  "slug": "middleware",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.913Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.913Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b7"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b6"
+  },
+  "title": "Intro to MongoDB",
+  "module_order": 1,
+  "slug": "intro-to-mongodb",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.915Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.915Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b8"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b6"
+  },
+  "title": "CRUD Operations",
+  "module_order": 2,
+  "slug": "crud-operations",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.916Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.916Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ca75eaff22753a220867b9"
+  },
+  "course_id": {
+    "$oid": "69ca75eaff22753a220867b6"
+  },
+  "title": "Aggregation",
+  "module_order": 3,
+  "slug": "aggregation",
+  "updated_at": {
+    "$date": "2026-03-30T13:08:58.916Z"
+  },
+  "created_at": {
+    "$date": "2026-03-30T13:08:58.916Z"
+  }
+}]
